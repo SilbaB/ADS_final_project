@@ -8,6 +8,7 @@ import joblib
 #loading the model
 model=joblib.load('model_filename.pkl')
 st.title("Student performance ")
+st.write('This is my first Streamlit app.')
 st.write("Age: The age of the students ranges from 15 to 18 years.")
 st.write("Gender: Gender of the students, where 0 represents Male and 1 represents Female.")
 st.write("Ethnicity: 0,Caucasian,1:African American,2:Asian,3:Other")
